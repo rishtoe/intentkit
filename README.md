@@ -70,9 +70,12 @@ curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/example.
 # Rename example.env to .env
 mv example.env .env
 
-# Edit .env file and add your configuration
-# Make sure to set OPENAI_API_KEY
-```
+# Edit the .env file to configure your settings.
+# You must set the following:
+# - OPENAI_API_KEY: Enter your OpenAI API key here.
+# Example:
+# OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 
 4. Start the services:
 ```bash
